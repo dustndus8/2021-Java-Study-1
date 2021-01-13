@@ -4,7 +4,7 @@
 
 # 깃 bash 명령어
 
-##커맨드 창 명령어
+## 커맨드 창 명령어
 Ctrl + L : 화면 초기화
 $ cd[이동할 하위 디렉토리명] : 디렉토리 이동
 $ mkdir [현재 경로에 생성할 디렉토리명] : 디렉토리 생성
@@ -12,23 +12,23 @@ $ git rm -r [삭제할 디렉토리명] : 디렉토리 삭제
 $ ls : 디렉토리 목록 조회
 $ cat : 파일 내용 조회
 
-##리모트 저장소 연결 명령어
-$ git remote add origin [자신의 깃허브 원격저장소 주소] : 리모트 저장소에 깃허브 원격 저장소 연결정보 추가
+## 리모트 저장소 연결 명령어
+$ git remote add origin [자신의 깃허브 원격저장소 주소] : 리모트 저장소에 깃허브 원격 저장소 연결정보 추가  
 $ git init : 리모트 저장소 초기화
 $ git remote show[리모트 저장소 이름] : 리모트 저장소 연결정보 조회
 $ git remote -v : 리모트 저장소 연결조회
 $ git remote rm [삭제할 저장소 이름] : 리모트 저장소 삭제
 
-##커밋 이력 조회
+## 커밋 이력 조회
 $ git status : 깃허브 커밋 상태 조회
 $ git log : 커밋 이력 상세 조회
 
 ## 깃허브 커밋
 $ git pull [리모트 저장소이름][브랜치이름] : 리모트 저장소 변경사항 불러오기-PULL
-$git push[리모트저장소이름][브랜치이름] : 리모트 저장소 변경사항 올리기-PUSH
-$git commit -m '[커밋설명]' : 변경사항 저장 - COMMIT
+$ git push[리모트저장소이름][브랜치이름] : 리모트 저장소 변경사항 올리기-PUSH
+$ git commit -m '[커밋설명]' : 변경사항 저장 - COMMIT
 
-##브랜치
+## 브랜치
 $ git branch : 브랜치 확인
 $ git branch -r : 서버 브랜치 확인
 
@@ -208,7 +208,7 @@ __double underscores__
 
 # 브랜치 만드는 법
 
-##브랜치 만들기
+## 브랜치 만들기
 ```
 $ git branch TEST // TEST라는 이름의 branch 생성
 $ git checkout branchName // master에서 TEST branch로 변경
@@ -217,7 +217,7 @@ $ git checkout branchName // master에서 TEST branch로 변경
 $git checkout -b branchName
 ```
 
-##브랜치에 push 하기
+## 브랜치에 push 하기
 ```
 $git add test.txt
 $git commit -m "add text file"
